@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+nav ul li {
+    padding: 5px 15px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+}
+
+nav ul li .fa-th {
+    color: #666;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.account-background {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5%;
+}
+
+.logo {
+    width: 270px;
+    margin-bottom: 25px;
+}
+
+section form .search-bar-container {
+    position: relative;
+}
+
+.search-bar {
+    padding: 15px 50px;
+    width: 580px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.search-bar-container .fas,
+.mic-logo {
+    position: absolute;
+    color: #999;
+}
+
+.fa-search {
+    top: 15px;
+    left: 15px;
+}
+
+.mic-logo {
+    width: 15px;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.buttons-container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.buttons-container .button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 14px;
+}
+
+section p {
+    font-size: 13px;
+}
+
+.offere-lang {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    min-height: 50px;
+    background-color: #f2f2f2;
+}
+
+.version {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #777;
+    border-bottom: 1px solid #dadce0;
+}
+
+.contact a,
+.settings a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #777;
+    margin: 12px;
+}
+
+.fotter-contact-setting {
+    padding: 15px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
